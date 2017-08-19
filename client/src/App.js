@@ -1,22 +1,24 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import logo from './logo.svg'
+import './App.css'
 
 class App extends Component {
-  render() {
+  render () {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>What up Bdoggy</h2>
+      <div className='App'>
+        <div className='App-header'>
+          <img src={logo} className='App-logo' alt='logo' />
+          <h2>What up DOG</h2>
         </div>
-        <p className="App-intro">
+        <p className='App-intro'>
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-        <a href='/auth/google'>Sign In With Google</a>
+        <button>
+          <a href='/auth/google'>Sign In With Google</a>
+        </button>
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App
